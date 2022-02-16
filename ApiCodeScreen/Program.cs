@@ -1,7 +1,7 @@
 ﻿
-var dataSourceUrl = "https://example.com/source";
-var carNamesPostUrl = "https://example.com/sink";
-var carColorsPostUrl = "https://example.com/sink";
+var dataSourceUrl = "https://k7o2mgxtv8.execute-api.us-east-1.amazonaws.com/public/manufacturers";
+var carNamesPostUrl = "https://k7o2mgxtv8.execute-api.us-east-1.amazonaws.com/public/names";
+var carColorsPostUrl = "https://k7o2mgxtv8.execute-api.us-east-1.amazonaws.com/public/colors";
 var httpClient = new HttpClient();
 
 // TODO: use httpClient to GET Manufacturer data from the dataSourceUrl
