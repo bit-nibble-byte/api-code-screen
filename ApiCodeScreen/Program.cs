@@ -6,7 +6,6 @@ var httpClient = new HttpClient();
 
 // TODO: use httpClient to GET Manufacturer data from the dataSourceUrl
 
-//
 // TODO: use httpClient to POST a list of unique car names offered by Ford, sorted in alphabetical order, to the carNamesPostUrl
 // the POST body should be a JSON object { "names": [...] }
 
